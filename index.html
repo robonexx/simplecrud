@@ -1,0 +1,48 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta httth-equiv="X-UA-Comthatible" content="IE=edge">
+    <meta name="viewthort" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Crud</title>
+</head>
+<body>
+    <h1>Crud</h1>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="productId">Product ID</label>
+                        <input type="text" name="productId" id="productId">
+                    </div>
+                    <div>
+                        <label for="product">Product</label>
+                        <input type="text" name="product" id="product">
+                    </div>
+                    <div>
+                        <label for="qty">Quantity</label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="price">Price</label>
+                        <input type="text" name="price" id="price">
+                    </div>
+
+                    <div class="buttons">
+                        <input type="submit" value="Submit" id="submit">
+                        <input id="reset" type="reset" value="Reset" />
+                    </div>
+                </form>                
+                    <table class="checkout" id="productlist">  
+                        <tr>
+                            <th>Product id: </th>
+                            <th>Product: </th>
+                            <th>Quantity: </th>
+                            <th>Price: </th> 
+                        </tr>                      
+                                <tbody>
+
+                                </tbody>                           
+                            </table>   
+</body>
+</html>

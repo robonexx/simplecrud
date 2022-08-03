@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    background: linear-gradient(145deg, rgb(148, 206, 206), rgb(130, 190, 190), rgb(107, 184, 184), rgb(72, 201, 201));
+    color: #fafafa;
+}
+
+h1:first-of-type {
+    padding: 1rem 2rem;
+    background-color: rgb(20, 53, 53);
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form, #productlist {
+    width: 65%;
+    height: 100%;
+    margin: 60px auto;
+    background-color: rgb(16, 102, 102);
+}
+
+.checkout {
+    text-align: left;
+    width: 100%;
+}
+
+form {
+    border: 1px solid rgb(46, 46, 46);
+    text-align: left;
+    padding: 10px 16px;
+}
+ form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: inline;
+    margin-left: auto;
+    margin-right: 3rem;
+}
+
+input[type="text"],input[type="number"] {
+    width: 85%;
+    padding: 10px 14px;
+    margin: 8px 0;
+    border: 1px solid whitesmoke;
+    color: #282828;
+    border-radius: 2px;
+    justify-content: flex-end;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+input[type="submit"], input[type="reset"] {
+background: white;
+text-transform: uppercase;
+color: #282828;
+padding: 8px 12px;
+margin: 16px 20px 10px;
+display: inline-block;
+border: none;
+border-radius: 5px;
+outline: none;
+font-size: 1rem;
+filter: drop-shadow(2px 2px 1px black);
+cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background: rgb(201, 201, 201);
+    color: black;
+}
+
+.checkout th {
+    text-transform: uppercase;
+    font-weight: 100;
+}
